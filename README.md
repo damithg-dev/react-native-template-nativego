@@ -2,7 +2,7 @@
 
 ## nativego is react native template to simplify start a react native project. 
 
-    to use : react-native init <APPLICATION_NAME> --template https://github.com/damithg-dev/react-native-template-nativego
+    npx react-native init <APPLICATION_NAME> --template react-native-template-nativego
 
 ### Dependencies
 
