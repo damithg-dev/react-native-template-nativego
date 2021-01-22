@@ -1,0 +1,49 @@
+{
+  "name": "react-native-template-nativego",
+  "version": "0.0.1",
+  "description": "nativego is react native template to simplify start a react native project.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damithg-dev/react-native-template-nativego.git"
+  },
+  "keywords": [
+    "react-native",
+    "reactnative",
+    "template",
+    "reactnative template"
+  ],
+  "author": "Damith Amarasinghe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/damithg-dev/react-native-template-nativego/issues"
+  },
+  "homepage": "https://github.com/damithg-dev/react-native-template-nativego",
+  "main": "index.js",
+  "dependencies": {
+    "@gorhom/bottom-sheet": "3.0.1",
+    "@react-native-community/async-storage": "^1.12.1",
+    "@react-native-community/datetimepicker": "^3.0.9",
+    "@react-native-community/hooks": "^2.6.0",
+    "@react-native-community/masked-view": "^0.1.10",
+    "@react-navigation/native": "^5.9.0",
+    "@react-navigation/stack": "^5.13.0",
+    "moment": "^2.24.0",
+    "prop-types": "^15.7.2",
+    "react-native-animated-number": "^1.1.1",
+    "react-native-config": "^1.4.2",
+    "react-native-easy-toast": "^2.0.0",
+    "react-native-gesture-handler": "^1.9.0",
+    "react-native-keyboard-aware-scroll-view": "^0.9.3",
+    "react-native-masked-text": "^1.13.0",
+    "react-native-modal-datetime-picker": "^8.9.3",
+    "react-native-progress": "^4.1.2",
+    "react-native-reanimated": "2.0.0-rc.2",
+    "react-native-safe-area-context": "^3.1.9",
+    "react-native-screens": "^2.16.1",
+    "react-native-vector-icons": "^7.0.0"
+  },
+  "devDependencies": {}
+}
