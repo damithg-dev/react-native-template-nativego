@@ -12,6 +12,7 @@ import { NavigationContainer } from "@react-navigation/native";
 import { navigationRef, isReadyRef } from "./src/navigation/helper";
 import { enableScreens } from "react-native-screens";
 import { ThemeProvider  } from "./src/utilities/context/theme";
+import { BottomSheetModalProvider } from '@gorhom/bottom-sheet';
 enableScreens();
 
 import HelloWorld from "./src/screens/HelloWorld";
@@ -20,6 +21,7 @@ const Stack = createStackNavigator();
 
 const App = ({ Navigation }) => {
   return (
+    <BottomSheetModalProvider>
     <ThemeProvider>
       <NavigationContainer
         ref={navigationRef}
@@ -32,6 +34,7 @@ const App = ({ Navigation }) => {
         </Stack.Navigator>
       </NavigationContainer>
     </ThemeProvider>
+    </BottomSheetModalProvider>
   );
 };
 
