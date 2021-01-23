@@ -1,6 +1,6 @@
 /**
- * nativego template
- * https://github.com/damithg-dev/nativego
+ * React-Native-Template-Nativego template
+ * https://github.com/damithg-dev/react-native-template-nativego
  *
  * @format
  * @flow strict-local
