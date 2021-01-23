@@ -37,7 +37,7 @@ Further information can be found here: https://github.com/react-native-community
 * [react-native-screens](https://reactnavigation.org/docs/getting-started)
 * [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons)
 
-## File Structure:
+## 🗄 File Structure:
 
 #### src/
 All the files are inside this base component.
