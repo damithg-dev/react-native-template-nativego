@@ -1,5 +1,5 @@
 {
-  "name": "HelloWorld",
+  "name": "nativego",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -13,7 +13,6 @@
     "ios-device": "react-native run-ios --device=''",
     "package-clean": "rm -rf package-lock.json && rm -rf node_modules",
     "build-android": "cd android && gradlew clean && gradlew assembleRelease"
-
   },
   "dependencies": {
     "@gorhom/bottom-sheet": "3.0.1",
@@ -41,13 +40,14 @@
     "react-native-vector-icons": "7.0.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.3.3",
-    "@babel/runtime": "^7.3.1",
-    "@react-native-community/eslint-config": "^0.0.3",
-    "babel-jest": "^24.1.0",
-    "jest": "^24.1.0",
-    "metro-react-native-babel-preset": "^0.51.1",
-    "react-test-renderer": "16.8.1"
+    "@babel/core": "^7.8.4",
+    "@babel/runtime": "^7.8.4",
+    "@react-native-community/eslint-config": "^1.1.0",
+    "babel-jest": "^25.1.0",
+    "eslint": "^6.5.1",
+    "jest": "^25.1.0",
+    "metro-react-native-babel-preset": "^0.59.0",
+    "react-test-renderer": "16.13.1"
   },
   "jest": {
     "preset": "react-native"
