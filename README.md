@@ -1,6 +1,6 @@
 # React Native Template Nativego
 
-## Nativego is react native template to for a quick start. 
+## Nativego is react native template for a quick start. 
 
 ## ➡️ Dependencies
 
