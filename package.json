@@ -1,6 +1,6 @@
 {
   "name": "react-native-template-nativego",
-  "version": "1.3.12",
+  "version": "1.3.13",
   "description": "Nativego is react native template to for a quick start.",
   "scripts": {
     "test": "exit 0"
